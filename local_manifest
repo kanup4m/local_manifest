@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <!--Device Trees-->
+    <project path="device/rmx2030" name="kanup4m/device_realme_r5x.git" remote="github" revision="lineage-17.1" />
+
+    <!--Kernel-->
+    <project path="kernel/rmx2030" name="kanup4m/kernel_realme_r5x.git" remote="github" revision="lineage-17.1" />
+
+    <!-- Vendor folders -->
+    <project path="vendor/rmx2030" name="kanup4m/Realme-5-Vendor.git" remote="github" revision="lineage-17.1" />
+</manifest>
