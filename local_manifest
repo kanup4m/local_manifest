@@ -2,12 +2,27 @@
 
 <manifest>
 
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="master" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="eleven"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="eleven"/>
+
     <!--Device Trees-->
-    <project path="device/rmx2030" name="kanup4m/device_realme_r5x.git" remote="github" revision="lineage-17.1" />
+    <project path="device/realme/r5x" name="kanup4m/device_realme_r5x" remote="device" />
+
 
     <!--Kernel-->
-    <project path="kernel/rmx2030" name="kanup4m/kernel_realme_r5x.git" remote="github" revision="lineage-17.1" />
+    <project path="kernel/realme/r5x" name="kanup4m/kernel_realme_r5x" remote="kernel" />
+
+
 
     <!-- Vendor folders -->
-    <project path="vendor/rmx2030" name="kanup4m/Realme-5-Vendor.git" remote="github" revision="lineage-17.1" />
+    <project path="vendor/realme/r5x" name="kanup4m/Realme-5-Vendor" remote="vendor" />
 </manifest>
