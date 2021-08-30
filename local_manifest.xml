@@ -5,9 +5,9 @@
                 fetch="https://github.com/kanup4m" />
                 
 	<!-- Device Sauce -->
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="anupam" revision="anupam" clone-depth="1" />
+        <project path="device/realme/r5x" name="device_realme_r5x-1" remote="anupam" revision="wave" clone-depth="1" />
         <project path="vendor/realme/r5x" name="Realme-5-Vendor" remote="anupam" revision="eleven" clone-depth="1" />
-	<project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="anupam" revision="eleven" clone-depth="1" />
+	<project path="kernel/realme/r5x" name="kernel_realme_r5x-1" remote="anupam" revision="eleven" clone-depth="1" />
 
 </manifest>
 
