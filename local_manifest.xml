@@ -3,13 +3,13 @@
 
  <remote name="anupam"
                 fetch="https://github.com/kanup4m" />
-	 <remote name="pixel"
-                fetch="https://github.com/PixelExperience-Devices" />
+	<remote name="device"
+                fetch="https://github.com/umjichingu" />
 
-	        
+
 	<!-- Device Sauce -->
-        <project path="device/realme/r5x" name="device_realme_r5x-2" remote="anupam" revision="eleven" clone-depth="1" />
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="device" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/r5x" name="Realme-5-Vendor" remote="anupam" revision="master" clone-depth="1" />
-	<project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="pixel" revision="eleven" clone-depth="1" />
-
+	<project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="device" revision="eleven" clone-depth="1" />
 </manifest>
+
