@@ -4,9 +4,6 @@
  <remote name="anupam"
                 fetch="https://github.com/kanup4m" />
 
-	 <remote name="realme"
-                fetch="https://github.com/Nary-Vip" />
-
 	<!-- Device Sauce -->
         <project path="device/realme/r5x" name="device_realme_r5x" remote="anupam" revision="cr" clone-depth="1" />
         <project path="vendor/realme/r5x" name="Realme-5-Vendor" remote="anupam" revision="master" clone-depth="1" />
