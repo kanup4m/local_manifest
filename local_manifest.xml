@@ -12,8 +12,5 @@
         <project path="vendor/realme/r5x" name="Realme-5-Vendor" remote="anupam" revision="master" clone-depth="1" />
 	<project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="anupam" revision="eleven" clone-depth="1" />
 	
-	  <!-- Parts -->
-	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts_r5x" remote="realme" revision="lineage-18.1" />
-		
 </manifest>
 
